@@ -1,0 +1,88 @@
+*{
+    /* outline: 1px solid red; */
+    padding: 0;
+    margin: 0;
+}
+a{
+    text-decoration: none;
+}
+.nav-brand{
+    font-size: 60px;
+}
+.nav-link{
+    font-size: 20px;
+    color: rgb(78, 76, 76);
+    font-weight: 400;
+}
+.nav-link:hover{
+    text-decoration: underline;
+    color: rgb(226, 57, 57);
+}
+.links, a{
+  color: black;
+  margin-left: 10px;
+}
+.links:hover{
+    text-decoration: underline;
+    color: grey;
+}
+.btn-dark:hover{
+    color: white;
+    text-decoration: none;
+}
+.picture{
+    width: 50%;
+    height: 50%;
+}
+#first-pic, #second-pic{
+  width: 50%;
+}
+section{
+    margin-top: 20px;
+}
+    html,
+    body {
+      height: 100%;
+    }
+
+    body {
+      font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+      font-size: 14px;
+      color: #000;
+      margin: 0;
+      padding: 0;
+    }
+
+    .swiper {
+      width: 100%;
+      height: 100%;
+    }
+
+    .swiper-slide {
+      text-align: center;
+      font-size: 18px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    @media (max-width: 760px) {
+      .swiper-button-next {
+        right: 20px;
+        transform: rotate(90deg);
+      }
+
+      .swiper-button-prev {
+        left: 20px;
+        transform: rotate(90deg);
+      }
+    }
+.arrival-main{
+    margin-top: 50px;
+}
+.social-link{
+  list-style: none;
+}
+.icon-link:hover{
+  background-color: white;
+}
